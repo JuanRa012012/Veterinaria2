@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
               "RelativeDocumentMoniker": "Veterinaria2\\Form1.cs",
-              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs [Design]",
-              "RelativeToolTip": "Veterinaria2\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Veterinaria2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T05:31:27.029Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
