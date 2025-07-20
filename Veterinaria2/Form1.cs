@@ -21,12 +21,12 @@ namespace Veterinaria2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            clsConexion.Abrir();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            clsConexion.Cerrar();
         }
     }
 
