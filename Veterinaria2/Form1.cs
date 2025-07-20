@@ -21,9 +21,13 @@ namespace Veterinaria2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Razas r = new Razas();
 
-            r.Show();  
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
+
 }
