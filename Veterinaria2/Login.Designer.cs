@@ -58,6 +58,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = Properties.Resources.Icono;
             pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(221, 179);
