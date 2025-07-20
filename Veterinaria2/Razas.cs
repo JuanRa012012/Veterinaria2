@@ -21,5 +21,10 @@ namespace Veterinaria2
         {
             this.Close();
         }
+
+        private void Razas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

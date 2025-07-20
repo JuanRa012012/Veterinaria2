@@ -146,6 +146,7 @@
             Controls.Add(label2);
             Name = "Razas";
             Text = "Razas";
+            Load += Razas_Load;
             ((System.ComponentModel.ISupportInitialize)grdRazas).EndInit();
             ResumeLayout(false);
             PerformLayout();

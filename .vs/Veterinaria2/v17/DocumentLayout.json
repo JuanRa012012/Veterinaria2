@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\juanra\\documents\\github\\veterinaria2\\veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\juanra\\documents\\github\\veterinaria2\\veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\juanra\\documents\\github\\veterinaria2\\veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "clsConexion.cs",
-              "DocumentMoniker": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\clsConexion.cs",
-              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
-              "RelativeToolTip": "Veterinaria2\\clsConexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
+              "RelativeToolTip": "Veterinaria2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T03:18:01.052Z",
+              "WhenOpened": "2025-07-20T03:57:03.529Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Veterinaria2\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:56:48.963Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
