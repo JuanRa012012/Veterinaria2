@@ -42,8 +42,9 @@
             grdUsuarios = new DataGridView();
             cmdSalir = new Button();
             cmdGuardar = new Button();
-            txtConfirmacionclave = new TextBox();
+            txtConfirmacionClave = new TextBox();
             label6 = new Label();
+            cmdCancelar = new Button();
             ((System.ComponentModel.ISupportInitialize)grdUsuarios).BeginInit();
             SuspendLayout();
             // 
@@ -81,6 +82,7 @@
             // 
             // cboRoles
             // 
+            cboRoles.DropDownStyle = ComboBoxStyle.DropDownList;
             cboRoles.FormattingEnabled = true;
             cboRoles.Location = new Point(12, 205);
             cboRoles.Name = "cboRoles";
@@ -100,6 +102,7 @@
             // 
             txtClave.Location = new Point(12, 139);
             txtClave.Name = "txtClave";
+            txtClave.PasswordChar = '*';
             txtClave.Size = new Size(221, 23);
             txtClave.TabIndex = 13;
             // 
@@ -120,6 +123,7 @@
             cmdAnular.TabIndex = 23;
             cmdAnular.Text = "Anular";
             cmdAnular.UseVisualStyleBackColor = true;
+            cmdAnular.Click += cmdAnular_Click;
             // 
             // cmdModificar
             // 
@@ -129,6 +133,7 @@
             cmdModificar.TabIndex = 22;
             cmdModificar.Text = "Modificar";
             cmdModificar.UseVisualStyleBackColor = true;
+            cmdModificar.Click += cmdModificar_Click;
             // 
             // label5
             // 
@@ -146,6 +151,7 @@
             grdUsuarios.Name = "grdUsuarios";
             grdUsuarios.Size = new Size(469, 220);
             grdUsuarios.TabIndex = 20;
+            grdUsuarios.CellClick += grdUsuarios_CellClick;
             // 
             // cmdSalir
             // 
@@ -165,13 +171,15 @@
             cmdGuardar.TabIndex = 18;
             cmdGuardar.Text = "Guardar";
             cmdGuardar.UseVisualStyleBackColor = true;
+            cmdGuardar.Click += cmdGuardar_Click;
             // 
-            // txtConfirmacionclave
+            // txtConfirmacionClave
             // 
-            txtConfirmacionclave.Location = new Point(260, 139);
-            txtConfirmacionclave.Name = "txtConfirmacionclave";
-            txtConfirmacionclave.Size = new Size(221, 23);
-            txtConfirmacionclave.TabIndex = 25;
+            txtConfirmacionClave.Location = new Point(260, 139);
+            txtConfirmacionClave.Name = "txtConfirmacionClave";
+            txtConfirmacionClave.PasswordChar = '*';
+            txtConfirmacionClave.Size = new Size(221, 23);
+            txtConfirmacionClave.TabIndex = 25;
             // 
             // label6
             // 
@@ -182,13 +190,25 @@
             label6.TabIndex = 24;
             label6.Text = "Confirmación de clave:";
             // 
+            // cmdCancelar
+            // 
+            cmdCancelar.Location = new Point(406, 204);
+            cmdCancelar.Name = "cmdCancelar";
+            cmdCancelar.Size = new Size(75, 23);
+            cmdCancelar.TabIndex = 70;
+            cmdCancelar.Text = "Cancelar";
+            cmdCancelar.UseVisualStyleBackColor = true;
+            cmdCancelar.Visible = false;
+            cmdCancelar.Click += cmdCancelar_Click;
+            // 
             // FormUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(490, 532);
             ControlBox = false;
-            Controls.Add(txtConfirmacionclave);
+            Controls.Add(cmdCancelar);
+            Controls.Add(txtConfirmacionClave);
             Controls.Add(label6);
             Controls.Add(cmdAnular);
             Controls.Add(cmdModificar);
@@ -228,7 +248,8 @@
         private DataGridView grdUsuarios;
         private Button cmdSalir;
         private Button cmdGuardar;
-        private TextBox txtConfirmacionclave;
+        private TextBox txtConfirmacionClave;
         private Label label6;
+        private Button cmdCancelar;
     }
 }

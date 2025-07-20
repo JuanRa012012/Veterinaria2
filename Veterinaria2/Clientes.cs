@@ -16,5 +16,10 @@ namespace Veterinaria2
         {
             InitializeComponent();
         }
+
+        private void dtpFechaNacimiento_ValueChanged(object sender, EventArgs e)
+        {
+            txtEdad.Text = (DateTime.Today.AddTicks(-dtpFechaNacimiento.Value.Ticks).Year - 1).ToString();
+        }
     }
 }
