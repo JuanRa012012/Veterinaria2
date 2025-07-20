@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             cmd_cancelar = new Button();
             button1 = new Button();
             pictureBox1 = new PictureBox();
@@ -58,7 +59,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Icono;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(221, 179);
