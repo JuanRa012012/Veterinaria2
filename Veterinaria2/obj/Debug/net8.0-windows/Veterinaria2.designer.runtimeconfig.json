@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ca_mo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\JuanRa\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\ca_mo\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
