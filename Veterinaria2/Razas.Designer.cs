@@ -69,6 +69,7 @@
             cmdAnular.TabIndex = 6;
             cmdAnular.Text = "Anular";
             cmdAnular.UseVisualStyleBackColor = true;
+            cmdAnular.Click += cmdAnular_Click;
             // 
             // cmdModificar
             // 
@@ -78,6 +79,7 @@
             cmdModificar.TabIndex = 5;
             cmdModificar.Text = "Modificar";
             cmdModificar.UseVisualStyleBackColor = true;
+            cmdModificar.Click += cmdModificar_Click;
             // 
             // cmdSalir
             // 
@@ -115,6 +117,8 @@
             grdRazas.Name = "grdRazas";
             grdRazas.Size = new Size(297, 164);
             grdRazas.TabIndex = 3;
+            grdRazas.CellClick += grdRazas_CellClick;
+            grdRazas.CellContentClick += grdRazas_CellContentClick;
             // 
             // txtNombre
             // 
@@ -140,6 +144,7 @@
             textBox1.Size = new Size(297, 23);
             textBox1.TabIndex = 65;
             textBox1.TextChanged += textBox1_TextChanged;
+            textBox1.KeyPress += textBox1_KeyPress;
             // 
             // label1
             // 

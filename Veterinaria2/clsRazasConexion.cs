@@ -19,7 +19,7 @@ namespace Veterinaria2
         {
             try
             {
-                da = new SqlDataAdapter("SELECT ID, NOMBRERAZA FROM RAZA WHERE ESTADO = 1", clsConexion.sc);
+                da = new SqlDataAdapter("SELECT A.ID, A.NOMBRERAZA, B.ID ID_ESPECIE, B.NOMBRE NOMBRE_ESPECIE FROM RAZA A, ESPECIE B WHERE A.ESPECIEID = B.ID AND A.ESTADO = 1", clsConexion.sc);
                 dt = new DataTable();
                 da.Fill(dt);
                 dgv.DataSource = dt;
@@ -51,7 +51,7 @@ namespace Veterinaria2
         {
             try
             {
-                da = new SqlDataAdapter("SELECT ID, NOMBRERAZA FROM RAZA WHERE NOMBRERAZA LIKE '%" + vrBuscar + "%' AND ESTADO = 1", clsConexion.sc);
+                da = new SqlDataAdapter("SELECT A.ID, A.NOMBRERAZA, B.ID ID_ESPECIE, B.NOMBRE NOMBRE_ESPECIE FROM RAZA A, ESPECIE B WHERE A.ESPECIEID = B.ID AND A.NOMBRERAZA LIKE '%" + vrBuscar + "%' AND A.ESTADO = 1", clsConexion.sc);
                 dt = new DataTable();
                 da.Fill(dt);
                 dgv.DataSource = dt;
@@ -62,7 +62,7 @@ namespace Veterinaria2
             }
         }
 
-        public void NuevaRaza(DataGridView dgv, String vrNombre, int vrIdEspecie)
+        public void InsertRaza(DataGridView dgv, String vrNombre, int vrIdEspecie)
         {
             try
             {
@@ -70,6 +70,40 @@ namespace Veterinaria2
                 cmd = new SqlCommand("INSERT INTO RAZA VALUES ('" + vrNombre + "'," + vrIdEspecie + ", 1, 1);", clsConexion.sc);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("El nuevo ítem ha sido agregado correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CargarDatos(dgv);
+                clsConexion.Abrir();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void UpdateRaza(DataGridView dgv, String vrNombre, int vrIdEspecie, int vrID)
+        {
+            try
+            {
+                clsConexion.Abrir();
+                cmd = new SqlCommand("UPDATE RAZA SET NOMBRERAZA = '" + vrNombre + "', ESPECIEID = " + vrIdEspecie + " WHERE ID = " + vrID + ";", clsConexion.sc);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("El ítem ha sido modificado correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CargarDatos(dgv);
+                clsConexion.Abrir();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void DeleteRaza(DataGridView dgv, int vrID)
+        {
+            try
+            {
+                clsConexion.Abrir();
+                cmd = new SqlCommand("UPDATE RAZA SET ESTADO = 2 WHERE ID = " + vrID + ";", clsConexion.sc);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("El ítem ha sido anulado correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 CargarDatos(dgv);
                 clsConexion.Abrir();
             }

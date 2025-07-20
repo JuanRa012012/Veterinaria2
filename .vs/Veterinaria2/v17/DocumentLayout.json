@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\",
+  "WorkspaceRootPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\clsespeciesconexion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsespeciesconexion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\juanra\\documents\\github\\veterinaria2\\veterinaria2\\razas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\razas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\Form1.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Veterinaria2\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T05:40:43.496Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "clsConexion.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\clsConexion.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs*",
-              "RelativeToolTip": "Veterinaria2\\clsConexion.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABhAAAAAAAAAA==",
+              "Title": "Razas.cs",
+              "DocumentMoniker": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Razas.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\Razas.cs",
+              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Razas.cs*",
+              "RelativeToolTip": "Veterinaria2\\Razas.cs*",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T05:18:06.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\Form1.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Form1.cs",
-              "RelativeToolTip": "Veterinaria2\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T05:11:43.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsEspeciesConexion1.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsEspeciesConexion1.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\clsEspeciesConexion1.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsEspeciesConexion1.cs",
-              "RelativeToolTip": "Veterinaria2\\clsEspeciesConexion1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T04:50:11.571Z",
+              "WhenOpened": "2025-07-20T07:04:53.594Z",
               "EditorCaption": ""
             }
           ]
