@@ -69,7 +69,7 @@
             // 
             txtCorreoCliente.Location = new Point(281, 133);
             txtCorreoCliente.Name = "txtCorreoCliente";
-            txtCorreoCliente.Size = new Size(221, 23);
+            txtCorreoCliente.Size = new Size(238, 23);
             txtCorreoCliente.TabIndex = 27;
             // 
             // lblCorreoCliente
@@ -99,7 +99,7 @@
             // 
             // bttAnularClientes
             // 
-            bttAnularClientes.Location = new Point(286, 458);
+            bttAnularClientes.Location = new Point(363, 444);
             bttAnularClientes.Name = "bttAnularClientes";
             bttAnularClientes.Size = new Size(75, 23);
             bttAnularClientes.TabIndex = 39;
@@ -108,7 +108,7 @@
             // 
             // bttModificarClientes
             // 
-            bttModificarClientes.Location = new Point(205, 458);
+            bttModificarClientes.Location = new Point(282, 444);
             bttModificarClientes.Name = "bttModificarClientes";
             bttModificarClientes.Size = new Size(75, 23);
             bttModificarClientes.TabIndex = 38;
@@ -117,7 +117,7 @@
             // 
             // bttSalirClientes
             // 
-            bttSalirClientes.Location = new Point(367, 458);
+            bttSalirClientes.Location = new Point(444, 444);
             bttSalirClientes.Name = "bttSalirClientes";
             bttSalirClientes.Size = new Size(75, 23);
             bttSalirClientes.TabIndex = 37;
@@ -126,7 +126,7 @@
             // 
             // bttGuardarClientes
             // 
-            bttGuardarClientes.Location = new Point(124, 458);
+            bttGuardarClientes.Location = new Point(201, 444);
             bttGuardarClientes.Name = "bttGuardarClientes";
             bttGuardarClientes.Size = new Size(75, 23);
             bttGuardarClientes.TabIndex = 36;
@@ -168,7 +168,7 @@
             // 
             // txtEdad
             // 
-            txtEdad.Location = new Point(455, 56);
+            txtEdad.Location = new Point(472, 56);
             txtEdad.Name = "txtEdad";
             txtEdad.ReadOnly = true;
             txtEdad.Size = new Size(47, 23);
@@ -177,7 +177,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(455, 38);
+            label7.Location = new Point(472, 38);
             label7.Name = "label7";
             label7.Size = new Size(36, 15);
             label7.TabIndex = 60;
@@ -195,11 +195,11 @@
             // dtpFechaNacimiento
             // 
             dtpFechaNacimiento.Format = DateTimePickerFormat.Short;
-            dtpFechaNacimiento.Location = new Point(281, 56);
+            dtpFechaNacimiento.Location = new Point(282, 56);
             dtpFechaNacimiento.MaxDate = new DateTime(2010, 1, 1, 0, 0, 0, 0);
             dtpFechaNacimiento.MinDate = new DateTime(1960, 1, 1, 0, 0, 0, 0);
             dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            dtpFechaNacimiento.Size = new Size(168, 23);
+            dtpFechaNacimiento.Size = new Size(184, 23);
             dtpFechaNacimiento.TabIndex = 57;
             dtpFechaNacimiento.Value = new DateTime(2000, 1, 1, 0, 0, 0, 0);
             dtpFechaNacimiento.ValueChanged += dtpFechaNacimiento_ValueChanged;
