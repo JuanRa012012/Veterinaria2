@@ -23,8 +23,11 @@ namespace Veterinaria2
                 da = new SqlDataAdapter("SELECT ID, DESCRIPCION FROM RAZAS WHERE ESTADO = 1", clsConexion.sc);
                 dt = new DataTable();
                 da.Fill(dt);
-
-
+                dgv.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
