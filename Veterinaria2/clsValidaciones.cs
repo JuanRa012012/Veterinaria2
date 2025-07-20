@@ -48,7 +48,6 @@ namespace Veterinaria2
                 }
             }
         }
-
         public void SoloEnteros(KeyPressEventArgs e)
         {
             if (!(Char.IsDigit(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
