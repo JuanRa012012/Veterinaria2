@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {}
+    "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {
+    "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
+        "projectUniqueName": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
         "projectName": "Veterinaria2",
-        "projectPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
-        "packagesPath": "C:\\Users\\Lenovo M720s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\obj\\",
+        "projectPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
+        "packagesPath": "C:\\Users\\JuanRa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo M720s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JuanRa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,11 +44,17 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
