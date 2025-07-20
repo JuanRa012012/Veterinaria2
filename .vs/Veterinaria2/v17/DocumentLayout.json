@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\ca_mo\\documentos\\unicah\\ii periodo 2025\\entornos desarrollo visual\\iii parcial\\veterinaria2\\veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\ca_mo\\documentos\\unicah\\ii periodo 2025\\entornos desarrollo visual\\iii parcial\\veterinaria2\\veterinaria2\\clsvalidaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsvalidaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\ca_mo\\documentos\\unicah\\ii periodo 2025\\entornos desarrollo visual\\iii parcial\\veterinaria2\\veterinaria2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -51,13 +59,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsConexion.cs",
+              "DocumentMoniker": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\clsConexion.cs",
+              "ToolTip": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\clsConexion.cs*",
+              "RelativeToolTip": "Veterinaria2\\clsConexion.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T21:12:12.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsValidaciones.cs",
+              "DocumentMoniker": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\clsValidaciones.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\clsValidaciones.cs",
+              "ToolTip": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\clsValidaciones.cs",
+              "RelativeToolTip": "Veterinaria2\\clsValidaciones.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T21:07:44.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\Login.cs",
               "RelativeDocumentMoniker": "Veterinaria2\\Login.cs",
               "ToolTip": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\Login.cs [Dise\u00F1o]",
               "RelativeToolTip": "Veterinaria2\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T02:00:12.314Z",
+              "WhenOpened": "2025-07-20T21:06:04.81Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
