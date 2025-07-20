@@ -31,5 +31,36 @@ namespace Veterinaria2
             }
         }
 
+        public void CargarEspecies(ComboBox cbo)
+        {
+            try
+            {
+                da = new SqlDataAdapter("SELECT ID, NOMBRE FROM ESPECIE WHERE ESTADO = 1", clsConexion.sc);
+                dt = new DataTable();
+                da.Fill(dt);
+                cbo.DataSource = dt;
+                cbo.DisplayMember = "NOMBRE";
+                cbo.ValueMember = "ID";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void BuscarRaza(DataGridView dgv, String vrBuscar)
+        {
+            try
+            {
+                da = new SqlDataAdapter("SELECT ID, NOMBRERAZA FROM RAZA WHERE NOMBRERAZA LIKE '%" + vrBuscar + "%' AND ESTADO = 1", clsConexion.sc);
+                dt = new DataTable();
+                da.Fill(dt);
+                dgv.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

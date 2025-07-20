@@ -38,16 +38,19 @@
             grdRazas = new DataGridView();
             txtNombre = new TextBox();
             label2 = new Label();
+            textBox1 = new TextBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)grdRazas).BeginInit();
             SuspendLayout();
             // 
             // cboEspecie
             // 
+            cboEspecie.DropDownStyle = ComboBoxStyle.DropDownList;
             cboEspecie.FormattingEnabled = true;
             cboEspecie.Location = new Point(12, 128);
             cboEspecie.Name = "cboEspecie";
             cboEspecie.Size = new Size(297, 23);
-            cboEspecie.TabIndex = 65;
+            cboEspecie.TabIndex = 2;
             // 
             // label10
             // 
@@ -63,7 +66,7 @@
             cmdAnular.Location = new Point(171, 429);
             cmdAnular.Name = "cmdAnular";
             cmdAnular.Size = new Size(66, 23);
-            cmdAnular.TabIndex = 63;
+            cmdAnular.TabIndex = 6;
             cmdAnular.Text = "Anular";
             cmdAnular.UseVisualStyleBackColor = true;
             // 
@@ -72,7 +75,7 @@
             cmdModificar.Location = new Point(99, 429);
             cmdModificar.Name = "cmdModificar";
             cmdModificar.Size = new Size(66, 23);
-            cmdModificar.TabIndex = 62;
+            cmdModificar.TabIndex = 5;
             cmdModificar.Text = "Modificar";
             cmdModificar.UseVisualStyleBackColor = true;
             // 
@@ -81,7 +84,7 @@
             cmdSalir.Location = new Point(243, 429);
             cmdSalir.Name = "cmdSalir";
             cmdSalir.Size = new Size(66, 23);
-            cmdSalir.TabIndex = 61;
+            cmdSalir.TabIndex = 7;
             cmdSalir.Text = "Salir";
             cmdSalir.UseVisualStyleBackColor = true;
             cmdSalir.Click += cmdSalir_Click;
@@ -91,14 +94,14 @@
             cmdGuardar.Location = new Point(27, 429);
             cmdGuardar.Name = "cmdGuardar";
             cmdGuardar.Size = new Size(66, 23);
-            cmdGuardar.TabIndex = 60;
+            cmdGuardar.TabIndex = 4;
             cmdGuardar.Text = "Guardar";
             cmdGuardar.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(12, 168);
+            label6.Location = new Point(12, 241);
             label6.Name = "label6";
             label6.Size = new Size(34, 15);
             label6.TabIndex = 59;
@@ -107,17 +110,17 @@
             // grdRazas
             // 
             grdRazas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            grdRazas.Location = new Point(12, 186);
+            grdRazas.Location = new Point(12, 259);
             grdRazas.Name = "grdRazas";
-            grdRazas.Size = new Size(297, 237);
-            grdRazas.TabIndex = 58;
+            grdRazas.Size = new Size(297, 164);
+            grdRazas.TabIndex = 3;
             // 
             // txtNombre
             // 
             txtNombre.Location = new Point(12, 74);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(297, 23);
-            txtNombre.TabIndex = 57;
+            txtNombre.TabIndex = 1;
             // 
             // label2
             // 
@@ -128,12 +131,31 @@
             label2.TabIndex = 56;
             label2.Text = "Nombre:";
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(12, 207);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(297, 23);
+            textBox1.TabIndex = 65;
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 189);
+            label1.Name = "label1";
+            label1.Size = new Size(98, 15);
+            label1.TabIndex = 66;
+            label1.Text = "Búsqueda rápida:";
+            // 
             // Razas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(325, 461);
             ControlBox = false;
+            Controls.Add(textBox1);
+            Controls.Add(label1);
             Controls.Add(cboEspecie);
             Controls.Add(label10);
             Controls.Add(cmdAnular);
@@ -164,5 +186,7 @@
         private DataGridView grdRazas;
         private TextBox txtNombre;
         private Label label2;
+        private TextBox textBox1;
+        private Label label1;
     }
 }

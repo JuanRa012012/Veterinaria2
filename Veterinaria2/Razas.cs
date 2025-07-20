@@ -17,6 +17,8 @@ namespace Veterinaria2
             InitializeComponent();
         }
 
+        clsRazasConexion clsRazasConexion = new clsRazasConexion();
+
         private void cmdSalir_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -24,9 +26,15 @@ namespace Veterinaria2
 
         private void Razas_Load(object sender, EventArgs e)
         {
-            clsRazasConexion clsRazasConexion = new clsRazasConexion();
-
             clsRazasConexion.CargarDatos(grdRazas);
+            clsRazasConexion.CargarEspecies(cboEspecie);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            String vrTexto = txtNombre.Text;
+
+            clsRazasConexion.BuscarRaza(grdRazas, vrTexto);
         }
     }
 }
