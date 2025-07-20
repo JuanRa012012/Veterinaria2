@@ -103,7 +103,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(247, 408);
+            ClientSize = new Size(263, 408);
             Controls.Add(cmd_cancelar);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
