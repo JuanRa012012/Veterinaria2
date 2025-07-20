@@ -20,7 +20,7 @@ namespace Veterinaria2
         {
             try
             {
-                da = new SqlDataAdapter("SELECT ID, DESCRIPCION FROM RAZAS WHERE ESTADO = 1", clsConexion.sc);
+                da = new SqlDataAdapter("SELECT ID, NOMBRERAZA FROM RAZA WHERE ESTADO = 1", clsConexion.sc);
                 dt = new DataTable();
                 da.Fill(dt);
                 dgv.DataSource = dt;

@@ -30,3 +30,7 @@ C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-wind
 C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.pdb
 C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.genruntimeconfig.cache
 C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\ref\Veterinaria2.dll
+C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Clientes.resources
+C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Especies.resources
+C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Facturas_Listados.resources
+C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Facturas.resources

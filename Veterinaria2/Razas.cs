@@ -24,7 +24,9 @@ namespace Veterinaria2
 
         private void Razas_Load(object sender, EventArgs e)
         {
+            clsRazasConexion clsRazasConexion = new clsRazasConexion();
 
+            clsRazasConexion.CargarDatos(grdRazas);
         }
     }
 }

@@ -18,5 +18,12 @@ namespace Veterinaria2
         {
             clsConexion.Cerrar();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Razas r = new Razas();
+
+            r.Show();  
+        }
     }
 }
