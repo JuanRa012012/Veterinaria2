@@ -30,8 +30,6 @@
         {
             txtNombreCLientes = new TextBox();
             lblNombreCliente = new Label();
-            lblFechaNcimiento = new Label();
-            dtpFechaNaciClientes = new DateTimePicker();
             txtCorreoCliente = new TextBox();
             lblCorreoCliente = new Label();
             txtTeleClientes = new TextBox();
@@ -44,6 +42,10 @@
             dgvListaClientes = new DataGridView();
             txtDirecClientes = new TextBox();
             lblDireccClientes = new Label();
+            txtEdad = new TextBox();
+            label7 = new Label();
+            label4 = new Label();
+            dtpFechaNacimiento = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dgvListaClientes).BeginInit();
             SuspendLayout();
             // 
@@ -62,22 +64,6 @@
             lblNombreCliente.Size = new Size(54, 15);
             lblNombreCliente.TabIndex = 16;
             lblNombreCliente.Text = "Nombre:";
-            // 
-            // lblFechaNcimiento
-            // 
-            lblFechaNcimiento.AutoSize = true;
-            lblFechaNcimiento.Location = new Point(274, 38);
-            lblFechaNcimiento.Name = "lblFechaNcimiento";
-            lblFechaNcimiento.Size = new Size(104, 15);
-            lblFechaNcimiento.TabIndex = 21;
-            lblFechaNcimiento.Text = "Fecha nacimiento:";
-            // 
-            // dtpFechaNaciClientes
-            // 
-            dtpFechaNaciClientes.Location = new Point(274, 56);
-            dtpFechaNaciClientes.Name = "dtpFechaNaciClientes";
-            dtpFechaNaciClientes.Size = new Size(221, 23);
-            dtpFechaNaciClientes.TabIndex = 20;
             // 
             // txtCorreoCliente
             // 
@@ -180,12 +166,54 @@
             lblDireccClientes.TabIndex = 32;
             lblDireccClientes.Text = "Dirección:";
             // 
+            // txtEdad
+            // 
+            txtEdad.Location = new Point(455, 56);
+            txtEdad.Name = "txtEdad";
+            txtEdad.ReadOnly = true;
+            txtEdad.Size = new Size(47, 23);
+            txtEdad.TabIndex = 58;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(455, 38);
+            label7.Name = "label7";
+            label7.Size = new Size(36, 15);
+            label7.TabIndex = 60;
+            label7.Text = "Edad:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(281, 38);
+            label4.Name = "label4";
+            label4.Size = new Size(104, 15);
+            label4.TabIndex = 59;
+            label4.Text = "Fecha nacimiento:";
+            // 
+            // dtpFechaNacimiento
+            // 
+            dtpFechaNacimiento.Format = DateTimePickerFormat.Short;
+            dtpFechaNacimiento.Location = new Point(281, 56);
+            dtpFechaNacimiento.MaxDate = new DateTime(2010, 1, 1, 0, 0, 0, 0);
+            dtpFechaNacimiento.MinDate = new DateTime(1960, 1, 1, 0, 0, 0, 0);
+            dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            dtpFechaNacimiento.Size = new Size(168, 23);
+            dtpFechaNacimiento.TabIndex = 57;
+            dtpFechaNacimiento.Value = new DateTime(2000, 1, 1, 0, 0, 0, 0);
+            dtpFechaNacimiento.ValueChanged += dtpFechaNacimiento_ValueChanged;
+            // 
             // Clientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(556, 497);
             ControlBox = false;
+            Controls.Add(txtEdad);
+            Controls.Add(label7);
+            Controls.Add(label4);
+            Controls.Add(dtpFechaNacimiento);
             Controls.Add(bttAnularClientes);
             Controls.Add(bttModificarClientes);
             Controls.Add(bttSalirClientes);
@@ -198,8 +226,6 @@
             Controls.Add(lblCorreoCliente);
             Controls.Add(txtTeleClientes);
             Controls.Add(lblTelefonoClientes);
-            Controls.Add(lblFechaNcimiento);
-            Controls.Add(dtpFechaNaciClientes);
             Controls.Add(txtNombreCLientes);
             Controls.Add(lblNombreCliente);
             Name = "Clientes";
@@ -213,8 +239,6 @@
 
         private TextBox txtNombreCLientes;
         private Label lblNombreCliente;
-        private Label lblFechaNcimiento;
-        private DateTimePicker dtpFechaNaciClientes;
         private TextBox txtCorreoCliente;
         private Label lblCorreoCliente;
         private TextBox txtTeleClientes;
@@ -227,5 +251,9 @@
         private DataGridView dgvListaClientes;
         private TextBox txtDirecClientes;
         private Label lblDireccClientes;
+        private TextBox txtEdad;
+        private Label label7;
+        private Label label4;
+        private DateTimePicker dtpFechaNacimiento;
     }
 }

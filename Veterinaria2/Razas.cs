@@ -24,6 +24,7 @@ namespace Veterinaria2
             cboEspecie.SelectedIndex = -1;
             RowIndex = 0;
             vrIdItemSeleccionado = 0;
+            cmdCancelar.Visible = false;
         }
 
         private void mtdInsertUpdate(int vrAccion)
@@ -109,6 +110,7 @@ namespace Veterinaria2
                 vrIdItemSeleccionado = Convert.ToInt32(grdRazas.CurrentRow.Cells[0].Value.ToString());
                 txtNombre.Text = grdRazas.CurrentRow.Cells[1].Value.ToString();
                 cboEspecie.SelectedValue = Convert.ToInt32(grdRazas.CurrentRow.Cells[2].Value.ToString());
+                cmdCancelar.Visible = true;
             }
             catch (Exception ex)
             {
@@ -132,7 +134,7 @@ namespace Veterinaria2
 
             if (vrRespuesta == DialogResult.Yes)
             {
-                if(vrIdItemSeleccionado == 0)
+                if (vrIdItemSeleccionado == 0)
                     MessageBox.Show("Por favor seleccione un ítem de la lista", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 else
                 {
@@ -140,6 +142,16 @@ namespace Veterinaria2
                     mtdLimpiar();
                 }
             }
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+            mtdLimpiar();
         }
     }
 }
