@@ -19,14 +19,17 @@ namespace Veterinaria2
             clsConexion.Cerrar();
         }
 
+
         private void button3_Click(object sender, EventArgs e)
         {
-            clsConexion.Abrir();
+            this.Hide();
+            Especies especies = new Especies();
+            especies.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            clsConexion.Cerrar();
+            
         }
     }
 

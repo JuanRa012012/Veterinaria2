@@ -56,6 +56,7 @@
             bttModificarEspecies.TabIndex = 60;
             bttModificarEspecies.Text = "Modificar";
             bttModificarEspecies.UseVisualStyleBackColor = true;
+            bttModificarEspecies.Click += bttModificarEspecies_Click;
             // 
             // bttSalirEspecies
             // 
@@ -65,6 +66,7 @@
             bttSalirEspecies.TabIndex = 59;
             bttSalirEspecies.Text = "Salir";
             bttSalirEspecies.UseVisualStyleBackColor = true;
+            bttSalirEspecies.Click += bttSalirEspecies_Click;
             // 
             // bttGuardarEspecies
             // 
@@ -74,6 +76,7 @@
             bttGuardarEspecies.TabIndex = 58;
             bttGuardarEspecies.Text = "Guardar";
             bttGuardarEspecies.UseVisualStyleBackColor = true;
+            bttGuardarEspecies.Click += bttGuardarEspecies_Click;
             // 
             // lblListaEspecies
             // 
@@ -86,9 +89,12 @@
             // 
             // dgvListaEspecies
             // 
+            dgvListaEspecies.AllowUserToAddRows = false;
+            dgvListaEspecies.AllowUserToDeleteRows = false;
             dgvListaEspecies.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvListaEspecies.Location = new Point(12, 93);
             dgvListaEspecies.Name = "dgvListaEspecies";
+            dgvListaEspecies.ReadOnly = true;
             dgvListaEspecies.Size = new Size(297, 273);
             dgvListaEspecies.TabIndex = 56;
             // 
@@ -124,6 +130,7 @@
             Controls.Add(lblNombreEspecies);
             Name = "Especies";
             Text = "Especies";
+            Load += Especies_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListaEspecies).EndInit();
             ResumeLayout(false);
             PerformLayout();
