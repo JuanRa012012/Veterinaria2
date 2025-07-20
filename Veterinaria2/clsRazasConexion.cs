@@ -11,10 +11,9 @@ namespace Veterinaria2
     internal class clsRazasConexion
     {
         clsConexion clsConexion = new clsConexion();
-
         SqlDataAdapter da; 
-
         DataTable dt;
+        SqlCommand cmd;
 
         public void CargarDatos(DataGridView dgv)
         {
@@ -56,6 +55,23 @@ namespace Veterinaria2
                 dt = new DataTable();
                 da.Fill(dt);
                 dgv.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void NuevaRaza(DataGridView dgv, String vrNombre, int vrIdEspecie)
+        {
+            try
+            {
+                clsConexion.Abrir();
+                cmd = new SqlCommand("INSERT INTO RAZA VALUES ('" + vrNombre + "'," + vrIdEspecie + ", 1, 1);", clsConexion.sc);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("El nuevo ítem ha sido agregado correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CargarDatos(dgv);
+                clsConexion.Abrir();
             }
             catch (Exception ex)
             {

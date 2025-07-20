@@ -12,12 +12,13 @@ namespace Veterinaria2
 {
     public partial class Razas : Form
     {
+        clsValidaciones clsValidaciones = new clsValidaciones();
+        clsRazasConexion clsRazasConexion = new clsRazasConexion();
+
         public Razas()
         {
             InitializeComponent();
         }
-
-        clsRazasConexion clsRazasConexion = new clsRazasConexion();
 
         private void cmdSalir_Click(object sender, EventArgs e)
         {
@@ -35,6 +36,33 @@ namespace Veterinaria2
             String vrTexto = txtNombre.Text;
 
             clsRazasConexion.BuscarRaza(grdRazas, vrTexto);
+        }
+
+        private void cmdGuardar_Click(object sender, EventArgs e)
+        {
+            if (txtNombre.Text.Length == 0)
+            {
+                MessageBox.Show("Por favor ingrese un nombre", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtNombre.Focus();
+            }
+            else if (cboEspecie.SelectedIndex == -1)
+            {
+                MessageBox.Show("Por favor seleccione una especie de la lista", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cboEspecie.Focus();
+            }
+            else
+            {
+                String vrNombre = txtNombre.Text;
+                int vrIdEspecie = Convert.ToInt32(cboEspecie.SelectedValue);
+
+                clsRazasConexion.NuevaRaza(grdRazas, vrNombre, vrIdEspecie);
+            }
+              
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            clsValidaciones.SoloLetras(e);
         }
     }
 }

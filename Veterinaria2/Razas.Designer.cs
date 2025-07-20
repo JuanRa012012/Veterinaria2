@@ -97,6 +97,7 @@
             cmdGuardar.TabIndex = 4;
             cmdGuardar.Text = "Guardar";
             cmdGuardar.UseVisualStyleBackColor = true;
+            cmdGuardar.Click += cmdGuardar_Click;
             // 
             // label6
             // 
@@ -121,6 +122,7 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(297, 23);
             txtNombre.TabIndex = 1;
+            txtNombre.KeyPress += txtNombre_KeyPress;
             // 
             // label2
             // 
