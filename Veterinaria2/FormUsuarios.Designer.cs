@@ -28,67 +28,207 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            label1 = new Label();
+            txtNombre = new TextBox();
+            txtCodigo = new TextBox();
             label2 = new Label();
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            label1 = new Label();
+            cboRoles = new ComboBox();
+            label4 = new Label();
+            txtClave = new TextBox();
+            label3 = new Label();
+            cmdAnular = new Button();
+            cmdModificar = new Button();
+            label5 = new Label();
+            grdUsuarios = new DataGridView();
+            cmdSalir = new Button();
+            cmdGuardar = new Button();
+            txtConfirmacionclave = new TextBox();
+            label6 = new Label();
+            ((System.ComponentModel.ISupportInitialize)grdUsuarios).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // txtNombre
             // 
-            textBox1.Location = new Point(108, 96);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(238, 23);
-            textBox1.TabIndex = 0;
+            txtNombre.Location = new Point(260, 72);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(221, 23);
+            txtNombre.TabIndex = 11;
             // 
-            // label1
+            // txtCodigo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(117, 78);
-            label1.Name = "label1";
-            label1.Size = new Size(51, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Nombre";
+            txtCodigo.Location = new Point(12, 72);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(221, 23);
+            txtCodigo.TabIndex = 10;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(117, 160);
+            label2.Location = new Point(260, 54);
             label2.Name = "label2";
-            label2.Size = new Size(31, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Lista";
+            label2.Size = new Size(54, 15);
+            label2.TabIndex = 9;
+            label2.Text = "Nombre:";
             // 
-            // dataGridView1
+            // label1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(108, 191);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(240, 150);
-            dataGridView1.TabIndex = 3;
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 54);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 15);
+            label1.TabIndex = 8;
+            label1.Text = "Código:";
+            // 
+            // cboRoles
+            // 
+            cboRoles.FormattingEnabled = true;
+            cboRoles.Location = new Point(12, 205);
+            cboRoles.Name = "cboRoles";
+            cboRoles.Size = new Size(221, 23);
+            cboRoles.TabIndex = 15;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 187);
+            label4.Name = "label4";
+            label4.Size = new Size(27, 15);
+            label4.TabIndex = 14;
+            label4.Text = "Rol:";
+            // 
+            // txtClave
+            // 
+            txtClave.Location = new Point(12, 139);
+            txtClave.Name = "txtClave";
+            txtClave.Size = new Size(221, 23);
+            txtClave.TabIndex = 13;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 121);
+            label3.Name = "label3";
+            label3.Size = new Size(39, 15);
+            label3.TabIndex = 12;
+            label3.Text = "Clave:";
+            // 
+            // cmdAnular
+            // 
+            cmdAnular.Location = new Point(324, 501);
+            cmdAnular.Name = "cmdAnular";
+            cmdAnular.Size = new Size(75, 23);
+            cmdAnular.TabIndex = 23;
+            cmdAnular.Text = "Anular";
+            cmdAnular.UseVisualStyleBackColor = true;
+            // 
+            // cmdModificar
+            // 
+            cmdModificar.Location = new Point(243, 501);
+            cmdModificar.Name = "cmdModificar";
+            cmdModificar.Size = new Size(75, 23);
+            cmdModificar.TabIndex = 22;
+            cmdModificar.Text = "Modificar";
+            cmdModificar.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(12, 253);
+            label5.Name = "label5";
+            label5.Size = new Size(97, 15);
+            label5.TabIndex = 21;
+            label5.Text = "Lista de usuarios:";
+            // 
+            // grdUsuarios
+            // 
+            grdUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grdUsuarios.Location = new Point(12, 271);
+            grdUsuarios.Name = "grdUsuarios";
+            grdUsuarios.Size = new Size(469, 220);
+            grdUsuarios.TabIndex = 20;
+            // 
+            // cmdSalir
+            // 
+            cmdSalir.Location = new Point(405, 501);
+            cmdSalir.Name = "cmdSalir";
+            cmdSalir.Size = new Size(75, 23);
+            cmdSalir.TabIndex = 19;
+            cmdSalir.Text = "Salir";
+            cmdSalir.UseVisualStyleBackColor = true;
+            cmdSalir.Click += cmdSalir_Click;
+            // 
+            // cmdGuardar
+            // 
+            cmdGuardar.Location = new Point(162, 501);
+            cmdGuardar.Name = "cmdGuardar";
+            cmdGuardar.Size = new Size(75, 23);
+            cmdGuardar.TabIndex = 18;
+            cmdGuardar.Text = "Guardar";
+            cmdGuardar.UseVisualStyleBackColor = true;
+            // 
+            // txtConfirmacionclave
+            // 
+            txtConfirmacionclave.Location = new Point(260, 139);
+            txtConfirmacionclave.Name = "txtConfirmacionclave";
+            txtConfirmacionclave.Size = new Size(221, 23);
+            txtConfirmacionclave.TabIndex = 25;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(260, 121);
+            label6.Name = "label6";
+            label6.Size = new Size(129, 15);
+            label6.TabIndex = 24;
+            label6.Text = "Confirmación de clave:";
             // 
             // FormUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(490, 532);
+            ControlBox = false;
+            Controls.Add(txtConfirmacionclave);
+            Controls.Add(label6);
+            Controls.Add(cmdAnular);
+            Controls.Add(cmdModificar);
+            Controls.Add(label5);
+            Controls.Add(grdUsuarios);
+            Controls.Add(cmdSalir);
+            Controls.Add(cmdGuardar);
+            Controls.Add(cboRoles);
+            Controls.Add(label4);
+            Controls.Add(txtClave);
+            Controls.Add(label3);
+            Controls.Add(txtNombre);
+            Controls.Add(txtCodigo);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox1);
             Name = "FormUsuarios";
-            Text = "FormUsuarios";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Text = "Usuarios";
+            Load += FormUsuarios_Load;
+            ((System.ComponentModel.ISupportInitialize)grdUsuarios).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
-        private Label label1;
+        private TextBox txtNombre;
+        private TextBox txtCodigo;
         private Label label2;
-        private DataGridView dataGridView1;
+        private Label label1;
+        private ComboBox cboRoles;
+        private Label label4;
+        private TextBox txtClave;
+        private Label label3;
+        private Button cmdAnular;
+        private Button cmdModificar;
+        private Label label5;
+        private DataGridView grdUsuarios;
+        private Button cmdSalir;
+        private Button cmdGuardar;
+        private TextBox txtConfirmacionclave;
+        private Label label6;
     }
 }

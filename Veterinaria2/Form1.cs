@@ -6,5 +6,28 @@ namespace Veterinaria2
         {
             InitializeComponent();
         }
+
+        clsConexion clsConexion = new clsConexion();
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clsConexion.Abrir();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clsConexion.Cerrar();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }

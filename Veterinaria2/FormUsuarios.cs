@@ -16,5 +16,15 @@ namespace Veterinaria2
         {
             InitializeComponent();
         }
+
+        private void FormUsuarios_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
