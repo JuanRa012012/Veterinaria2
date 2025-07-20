@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\juanra\\documents\\github\\veterinaria2\\veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\clsrazasconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsrazasconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,27 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "clsConexion.cs",
-              "DocumentMoniker": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
               "RelativeDocumentMoniker": "Veterinaria2\\clsConexion.cs",
-              "ToolTip": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs",
-              "RelativeToolTip": "Veterinaria2\\clsConexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsConexion.cs*",
+              "RelativeToolTip": "Veterinaria2\\clsConexion.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T03:18:01.052Z",
+              "WhenOpened": "2025-07-20T04:41:38.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsRazasConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsRazasConexion.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\clsRazasConexion.cs",
+              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsRazasConexion.cs",
+              "RelativeToolTip": "Veterinaria2\\clsRazasConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:40:22.675Z",
               "EditorCaption": ""
             }
           ]
