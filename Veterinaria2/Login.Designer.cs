@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             cmd_cancelar = new Button();
-            button1 = new Button();
+            btnIngresar = new Button();
             pictureBox1 = new PictureBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtClave = new TextBox();
+            txtUser = new TextBox();
             label2 = new Label();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -48,14 +48,15 @@
             cmd_cancelar.Text = "Cancelar";
             cmd_cancelar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnIngresar
             // 
-            button1.Location = new Point(12, 372);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 12;
-            button1.Text = "Ingresar";
-            button1.UseVisualStyleBackColor = true;
+            btnIngresar.Location = new Point(12, 372);
+            btnIngresar.Name = "btnIngresar";
+            btnIngresar.Size = new Size(75, 23);
+            btnIngresar.TabIndex = 12;
+            btnIngresar.Text = "Ingresar";
+            btnIngresar.UseVisualStyleBackColor = true;
+            btnIngresar.Click += button1_Click;
             // 
             // pictureBox1
             // 
@@ -67,19 +68,19 @@
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
-            // textBox2
+            // txtClave
             // 
-            textBox2.Location = new Point(12, 313);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(221, 23);
-            textBox2.TabIndex = 10;
+            txtClave.Location = new Point(12, 313);
+            txtClave.Name = "txtClave";
+            txtClave.Size = new Size(221, 23);
+            txtClave.TabIndex = 10;
             // 
-            // textBox1
+            // txtUser
             // 
-            textBox1.Location = new Point(12, 244);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(221, 23);
-            textBox1.TabIndex = 9;
+            txtUser.Location = new Point(12, 244);
+            txtUser.Name = "txtUser";
+            txtUser.Size = new Size(221, 23);
+            txtUser.TabIndex = 9;
             // 
             // label2
             // 
@@ -105,10 +106,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(263, 408);
             Controls.Add(cmd_cancelar);
-            Controls.Add(button1);
+            Controls.Add(btnIngresar);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtClave);
+            Controls.Add(txtUser);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Login";
@@ -121,10 +122,10 @@
         #endregion
 
         private Button cmd_cancelar;
-        private Button button1;
+        private Button btnIngresar;
         private PictureBox pictureBox1;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtClave;
+        private TextBox txtUser;
         private Label label2;
         private Label label1;
     }

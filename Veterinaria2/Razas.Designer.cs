@@ -40,6 +40,7 @@
             label2 = new Label();
             textBox1 = new TextBox();
             label1 = new Label();
+            cmdCancelar = new Button();
             ((System.ComponentModel.ISupportInitialize)grdRazas).BeginInit();
             SuspendLayout();
             // 
@@ -69,6 +70,7 @@
             cmdAnular.TabIndex = 6;
             cmdAnular.Text = "Anular";
             cmdAnular.UseVisualStyleBackColor = true;
+            cmdAnular.Click += cmdAnular_Click;
             // 
             // cmdModificar
             // 
@@ -78,6 +80,7 @@
             cmdModificar.TabIndex = 5;
             cmdModificar.Text = "Modificar";
             cmdModificar.UseVisualStyleBackColor = true;
+            cmdModificar.Click += cmdModificar_Click;
             // 
             // cmdSalir
             // 
@@ -115,6 +118,8 @@
             grdRazas.Name = "grdRazas";
             grdRazas.Size = new Size(297, 164);
             grdRazas.TabIndex = 3;
+            grdRazas.CellClick += grdRazas_CellClick;
+            grdRazas.CellContentClick += grdRazas_CellContentClick;
             // 
             // txtNombre
             // 
@@ -122,6 +127,7 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(297, 23);
             txtNombre.TabIndex = 1;
+            txtNombre.TextChanged += txtNombre_TextChanged;
             txtNombre.KeyPress += txtNombre_KeyPress;
             // 
             // label2
@@ -140,6 +146,7 @@
             textBox1.Size = new Size(297, 23);
             textBox1.TabIndex = 65;
             textBox1.TextChanged += textBox1_TextChanged;
+            textBox1.KeyPress += textBox1_KeyPress;
             // 
             // label1
             // 
@@ -150,12 +157,24 @@
             label1.TabIndex = 66;
             label1.Text = "Búsqueda rápida:";
             // 
+            // cmdCancelar
+            // 
+            cmdCancelar.Location = new Point(234, 157);
+            cmdCancelar.Name = "cmdCancelar";
+            cmdCancelar.Size = new Size(75, 23);
+            cmdCancelar.TabIndex = 70;
+            cmdCancelar.Text = "Cancelar";
+            cmdCancelar.UseVisualStyleBackColor = true;
+            cmdCancelar.Visible = false;
+            cmdCancelar.Click += cmdCancelar_Click;
+            // 
             // Razas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(325, 461);
             ControlBox = false;
+            Controls.Add(cmdCancelar);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(cboEspecie);
@@ -190,5 +209,6 @@
         private Label label2;
         private TextBox textBox1;
         private Label label1;
+        private Button cmdCancelar;
     }
 }

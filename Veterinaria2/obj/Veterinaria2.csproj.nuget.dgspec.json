@@ -1,23 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {
+    "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
+        "projectUniqueName": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
         "projectName": "Veterinaria2",
-        "projectPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
-        "packagesPath": "C:\\Users\\Lenovo M720s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\obj\\",
+        "projectPath": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
+        "packagesPath": "C:\\Users\\ca_mo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\Veterinaria2\\obj\\",
+=======
+    "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
+        "projectName": "Veterinaria2",
+        "projectPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Veterinaria2.csproj",
+        "packagesPath": "C:\\Users\\JuanRa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanRa\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\obj\\",
+>>>>>>> 15a4db8d5122fab3d47e5ada74921e81ea6bf865
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo M720s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+          "C:\\Users\\ca_mo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\JuanRa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 15a4db8d5122fab3d47e5ada74921e81ea6bf865
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +44,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +63,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +93,11 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 15a4db8d5122fab3d47e5ada74921e81ea6bf865
         }
       }
     }
