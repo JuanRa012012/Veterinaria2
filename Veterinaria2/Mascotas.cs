@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Veterinaria2
 {
-    public partial class Veterinarios : Form
+    public partial class Mascotas : Form
     {
-        public Veterinarios()
+        public Mascotas()
         {
             InitializeComponent();
         }

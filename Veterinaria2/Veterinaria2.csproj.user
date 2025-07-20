@@ -10,6 +10,15 @@
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Mascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Razas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Veterinarios.cs">
       <SubType>Form</SubType>
     </Compile>
