@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\especies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\especies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\especies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\especies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\razas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\razas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\lenovo m720s\\documents\\github\\veterinaria2\\veterinaria2\\clsespeciesconexion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsespeciesconexion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,61 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Razas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Razas.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\Razas.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Razas.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Veterinaria2\\Razas.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T23:58:35.125Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Especies.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Especies.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\Especies.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Especies.cs*",
-              "RelativeToolTip": "Veterinaria2\\Especies.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T23:52:33.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Especies.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Especies.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\Especies.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\Especies.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Veterinaria2\\Especies.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T23:52:26.25Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsEspeciesConexion1.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsEspeciesConexion1.cs",
-              "RelativeDocumentMoniker": "Veterinaria2\\clsEspeciesConexion1.cs",
-              "ToolTip": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\Veterinaria2\\clsEspeciesConexion1.cs*",
-              "RelativeToolTip": "Veterinaria2\\clsEspeciesConexion1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T23:24:10.993Z",
-              "EditorCaption": ""
             }
           ]
         }
