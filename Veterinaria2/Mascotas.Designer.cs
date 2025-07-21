@@ -208,6 +208,7 @@
             Controls.Add(label1);
             Name = "Mascotas";
             Text = "Mascotas";
+            Load += Mascotas_Load;
             ((System.ComponentModel.ISupportInitialize)grdMascotas).EndInit();
             ResumeLayout(false);
             PerformLayout();

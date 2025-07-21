@@ -28,56 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            bttAnularEspecies = new Button();
-            bttModificarEspecies = new Button();
-            bttSalirEspecies = new Button();
-            bttGuardarEspecies = new Button();
+            cmdAnularEspecies = new Button();
+            cmdModificarEspecies = new Button();
+            cmdSalirEspecies = new Button();
+            cmdGuardarEspecies = new Button();
             lblListaEspecies = new Label();
-            dgvListaEspecies = new DataGridView();
+            grdListaEspecies = new DataGridView();
             txtNombreEspecies = new TextBox();
             lblNombreEspecies = new Label();
-            ((System.ComponentModel.ISupportInitialize)dgvListaEspecies).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)grdListaEspecies).BeginInit();
             SuspendLayout();
             // 
-            // bttAnularEspecies
+            // cmdAnularEspecies
             // 
-            bttAnularEspecies.Location = new Point(171, 389);
-            bttAnularEspecies.Name = "bttAnularEspecies";
-            bttAnularEspecies.Size = new Size(66, 23);
-            bttAnularEspecies.TabIndex = 61;
-            bttAnularEspecies.Text = "Anular";
-            bttAnularEspecies.UseVisualStyleBackColor = true;
-            bttAnularEspecies.Click += bttAnularEspecies_Click;
+            cmdAnularEspecies.Location = new Point(171, 389);
+            cmdAnularEspecies.Name = "cmdAnularEspecies";
+            cmdAnularEspecies.Size = new Size(66, 23);
+            cmdAnularEspecies.TabIndex = 61;
+            cmdAnularEspecies.Text = "Anular";
+            cmdAnularEspecies.UseVisualStyleBackColor = true;
+            cmdAnularEspecies.Click += bttAnularEspecies_Click;
             // 
-            // bttModificarEspecies
+            // cmdModificarEspecies
             // 
-            bttModificarEspecies.Location = new Point(99, 389);
-            bttModificarEspecies.Name = "bttModificarEspecies";
-            bttModificarEspecies.Size = new Size(66, 23);
-            bttModificarEspecies.TabIndex = 60;
-            bttModificarEspecies.Text = "Modificar";
-            bttModificarEspecies.UseVisualStyleBackColor = true;
-            bttModificarEspecies.Click += bttModificarEspecies_Click;
+            cmdModificarEspecies.Location = new Point(99, 389);
+            cmdModificarEspecies.Name = "cmdModificarEspecies";
+            cmdModificarEspecies.Size = new Size(66, 23);
+            cmdModificarEspecies.TabIndex = 60;
+            cmdModificarEspecies.Text = "Modificar";
+            cmdModificarEspecies.UseVisualStyleBackColor = true;
+            cmdModificarEspecies.Click += bttModificarEspecies_Click;
             // 
-            // bttSalirEspecies
+            // cmdSalirEspecies
             // 
-            bttSalirEspecies.Location = new Point(243, 389);
-            bttSalirEspecies.Name = "bttSalirEspecies";
-            bttSalirEspecies.Size = new Size(66, 23);
-            bttSalirEspecies.TabIndex = 59;
-            bttSalirEspecies.Text = "Salir";
-            bttSalirEspecies.UseVisualStyleBackColor = true;
-            bttSalirEspecies.Click += bttSalirEspecies_Click;
+            cmdSalirEspecies.Location = new Point(243, 389);
+            cmdSalirEspecies.Name = "cmdSalirEspecies";
+            cmdSalirEspecies.Size = new Size(66, 23);
+            cmdSalirEspecies.TabIndex = 59;
+            cmdSalirEspecies.Text = "Salir";
+            cmdSalirEspecies.UseVisualStyleBackColor = true;
+            cmdSalirEspecies.Click += bttSalirEspecies_Click;
             // 
-            // bttGuardarEspecies
+            // cmdGuardarEspecies
             // 
-            bttGuardarEspecies.Location = new Point(27, 389);
-            bttGuardarEspecies.Name = "bttGuardarEspecies";
-            bttGuardarEspecies.Size = new Size(66, 23);
-            bttGuardarEspecies.TabIndex = 58;
-            bttGuardarEspecies.Text = "Guardar";
-            bttGuardarEspecies.UseVisualStyleBackColor = true;
-            bttGuardarEspecies.Click += bttGuardarEspecies_Click;
+            cmdGuardarEspecies.Location = new Point(27, 389);
+            cmdGuardarEspecies.Name = "cmdGuardarEspecies";
+            cmdGuardarEspecies.Size = new Size(66, 23);
+            cmdGuardarEspecies.TabIndex = 58;
+            cmdGuardarEspecies.Text = "Guardar";
+            cmdGuardarEspecies.UseVisualStyleBackColor = true;
+            cmdGuardarEspecies.Click += bttGuardarEspecies_Click;
             // 
             // lblListaEspecies
             // 
@@ -88,17 +88,17 @@
             lblListaEspecies.TabIndex = 57;
             lblListaEspecies.Text = "Lista:";
             // 
-            // dgvListaEspecies
+            // grdListaEspecies
             // 
-            dgvListaEspecies.AllowUserToAddRows = false;
-            dgvListaEspecies.AllowUserToDeleteRows = false;
-            dgvListaEspecies.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListaEspecies.Location = new Point(12, 93);
-            dgvListaEspecies.Name = "dgvListaEspecies";
-            dgvListaEspecies.ReadOnly = true;
-            dgvListaEspecies.Size = new Size(297, 273);
-            dgvListaEspecies.TabIndex = 56;
-            dgvListaEspecies.CellContentClick += dgvListaEspecies_CellContentClick;
+            grdListaEspecies.AllowUserToAddRows = false;
+            grdListaEspecies.AllowUserToDeleteRows = false;
+            grdListaEspecies.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grdListaEspecies.Location = new Point(12, 93);
+            grdListaEspecies.Name = "grdListaEspecies";
+            grdListaEspecies.ReadOnly = true;
+            grdListaEspecies.Size = new Size(297, 273);
+            grdListaEspecies.TabIndex = 56;
+            grdListaEspecies.CellContentClick += dgvListaEspecies_CellContentClick;
             // 
             // txtNombreEspecies
             // 
@@ -122,30 +122,30 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(355, 450);
             ControlBox = false;
-            Controls.Add(bttAnularEspecies);
-            Controls.Add(bttModificarEspecies);
-            Controls.Add(bttSalirEspecies);
-            Controls.Add(bttGuardarEspecies);
+            Controls.Add(cmdAnularEspecies);
+            Controls.Add(cmdModificarEspecies);
+            Controls.Add(cmdSalirEspecies);
+            Controls.Add(cmdGuardarEspecies);
             Controls.Add(lblListaEspecies);
-            Controls.Add(dgvListaEspecies);
+            Controls.Add(grdListaEspecies);
             Controls.Add(txtNombreEspecies);
             Controls.Add(lblNombreEspecies);
             Name = "Especies";
             Text = "Especies";
             Load += Especies_Load;
-            ((System.ComponentModel.ISupportInitialize)dgvListaEspecies).EndInit();
+            ((System.ComponentModel.ISupportInitialize)grdListaEspecies).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button bttAnularEspecies;
-        private Button bttModificarEspecies;
-        private Button bttSalirEspecies;
-        private Button bttGuardarEspecies;
+        private Button cmdAnularEspecies;
+        private Button cmdModificarEspecies;
+        private Button cmdSalirEspecies;
+        private Button cmdGuardarEspecies;
         private Label lblListaEspecies;
-        private DataGridView dgvListaEspecies;
+        private DataGridView grdListaEspecies;
         private TextBox txtNombreEspecies;
         private Label lblNombreEspecies;
     }

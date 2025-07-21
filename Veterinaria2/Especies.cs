@@ -13,8 +13,19 @@ namespace Veterinaria2
 {
     public partial class Especies : Form
     {
-        clsEspeciesConexion conexion = new clsEspeciesConexion();
-        int especieIDSeleccionada = 0; // Para modificar/anular
+        clsEspeciesConexion clsEspeciesConexion = new clsEspeciesConexion();
+        clsValidaciones clsValidaciones = new clsValidaciones();
+        int especieIDSeleccionada = 0;
+        int vrIdItemSeleccionado = 0;
+        int RowIndex = 0;
+
+        private void mtdLimpiar()
+        {
+            txtNombreEspecies.Text = string.Empty;
+            RowIndex = 0;
+            vrIdItemSeleccionado = 0;
+        }
+
 
         public Especies()
         {
@@ -28,15 +39,15 @@ namespace Veterinaria2
 
         private void Especies_Load(object sender, EventArgs e)
         {
-            conexion.CargarDatos(dgvListaEspecies);
-            dgvListaEspecies.ClearSelection();
+            clsEspeciesConexion.CargarDatos(grdListaEspecies);
+            grdListaEspecies.ClearSelection();
         }
 
         private void Limpiar()
         {
             txtNombreEspecies.Text = "";
             especieIDSeleccionada = 0;
-            dgvListaEspecies.ClearSelection();
+            grdListaEspecies.ClearSelection();
         }
 
         private void bttGuardarEspecies_Click(object sender, EventArgs e)
@@ -47,7 +58,7 @@ namespace Veterinaria2
                 return;
             }
 
-            conexion.InsertEspecie(dgvListaEspecies, txtNombreEspecies.Text.Trim());
+            clsEspeciesConexion.InsertEspecie(grdListaEspecies, txtNombreEspecies.Text.Trim());
             Limpiar();
 
         }
@@ -60,33 +71,37 @@ namespace Veterinaria2
                 return;
             }
 
-            conexion.UpdateEspecie(dgvListaEspecies, txtNombreEspecies.Text.Trim(), especieIDSeleccionada);
+            clsEspeciesConexion.UpdateEspecie(grdListaEspecies, txtNombreEspecies.Text.Trim(), especieIDSeleccionada);
             Limpiar();
         }
 
         private void dgvListaEspecies_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0 && dgvListaEspecies.Rows[e.RowIndex].Cells["ID"].Value != null)
+            if (e.RowIndex >= 0 && grdListaEspecies.Rows[e.RowIndex].Cells["ID"].Value != null)
             {
-                especieIDSeleccionada = Convert.ToInt32(dgvListaEspecies.Rows[e.RowIndex].Cells["ID"].Value);
-                txtNombreEspecies.Text = dgvListaEspecies.Rows[e.RowIndex].Cells["NOMBRE"].Value.ToString();
+                especieIDSeleccionada = Convert.ToInt32(grdListaEspecies.Rows[e.RowIndex].Cells["ID"].Value);
+                txtNombreEspecies.Text = grdListaEspecies.Rows[e.RowIndex].Cells["NOMBRE"].Value.ToString();
             }
         }
 
         private void bttAnularEspecies_Click(object sender, EventArgs e)
         {
-            if (especieIDSeleccionada == 0)
+            if (vrIdItemSeleccionado == 0)
             {
-                MessageBox.Show("Seleccione una especie para anular.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor seleccione un ítem de la lista", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            var confirm = MessageBox.Show("Esta seguro que desea anular esta especie?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (confirm == DialogResult.Yes)
+            DialogResult vrRespuesta = MessageBox.Show("Esta seguro que los datos son correctos?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (vrRespuesta == DialogResult.Yes)
             {
-                conexion.DeleteEspecie(dgvListaEspecies, especieIDSeleccionada);
-                Limpiar();
+                clsEspeciesConexion.DeleteEspecie(grdListaEspecies, vrIdItemSeleccionado);
+                mtdLimpiar(); 
             }
         }
     }
 }
+
+
+ 
