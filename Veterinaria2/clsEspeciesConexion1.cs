@@ -86,13 +86,13 @@ namespace Veterinaria2
             }
         }
 
-       
+
         public void DeleteEspecie(DataGridView dgv, int id)
         {
             try
             {
                 clsConexion.Abrir();
-                cmd = new SqlCommand("UPDATE ESPECIE SET ESTADO = 2 WHERE ID = @id", clsConexion.sc);
+                cmd = new SqlCommand("DELETE ESPECIE SET ESTADO = 2 WHERE ID = @id", clsConexion.sc);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("La especie ha sido anulada correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
