@@ -21,7 +21,7 @@ namespace Veterinaria2
             obj.CargarDatos(grdServicios);
         }
 
-        private void btnGuardar_Click(object sender, EventArgs e)
+        private void cmdGuardar_Click(object sender, EventArgs e)
         {
             if (txtNombre.Text != "" && txtPrecio.Text != "")
             {
@@ -42,7 +42,7 @@ namespace Veterinaria2
             }
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
+        private void cmdModificar_Click(object sender, EventArgs e)
         {
             if (txtNombre.Text != "" && txtPrecio.Text != "" && idActual != 0)
             {
@@ -63,7 +63,7 @@ namespace Veterinaria2
             }
         }
 
-        private void btnAnular_Click(object sender, EventArgs e)
+        private void cmdAnular_Click(object sender, EventArgs e)
         {
             if (idActual != 0)
             {
@@ -76,7 +76,7 @@ namespace Veterinaria2
             }
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void cmdSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
