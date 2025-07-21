@@ -131,3 +131,5 @@ C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windo
 C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.dll
 C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\refint\Veterinaria2.dll
 C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.pdb
+C:\Users\ca_mo\Documentos\UNICAH\II Periodo 2025\Entornos Desarrollo Visual\III Parcial\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Admin.resources
+C:\Users\ca_mo\Documentos\UNICAH\II Periodo 2025\Entornos Desarrollo Visual\III Parcial\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Empleado.resources
