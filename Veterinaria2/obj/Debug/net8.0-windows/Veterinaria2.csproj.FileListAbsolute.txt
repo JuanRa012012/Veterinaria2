@@ -109,3 +109,25 @@ C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-wind
 C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Facturas_Listados.resources
 C:\Users\JuanRa\Documents\GitHub\Veterinaria2\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Facturas.resources
 >>>>>>> 15a4db8d5122fab3d47e5ada74921e81ea6bf865
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.csproj.AssemblyReference.cache
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Clientes.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Especies.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Facturas_Listados.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Facturas.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Form1.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.FormUsuarios.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Login.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Mascotas.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Properties.Resources.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Razas.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Servicios.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.Veterinarios.resources
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.csproj.GenerateResource.cache
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.AssemblyInfoInputs.cache
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.AssemblyInfo.cs
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.csproj.CoreCompileInputs.cache
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.sourcelink.json
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.dll
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\refint\Veterinaria2.dll
+C:\Users\PABLO\Documents\GitHub\Veterinaria7\Veterinaria2\obj\Debug\net8.0-windows\Veterinaria2.pdb

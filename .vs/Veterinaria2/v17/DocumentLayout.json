@@ -1,7 +1,33 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\",
   "Documents": [],
+=======
+  "WorkspaceRootPath": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\pablo\\documents\\github\\veterinaria7\\veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\pablo\\documents\\github\\veterinaria7\\veterinaria2\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\pablo\\documents\\github\\veterinaria7\\veterinaria2\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\pablo\\documents\\github\\veterinaria7\\veterinaria2\\clsserviciosconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsserviciosconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|c:\\users\\pablo\\documents\\github\\veterinaria7\\veterinaria2\\clsrazasconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0BB8545-4F3A-452A-9EED-20BE4C33C8DB}|Veterinaria2\\Veterinaria2.csproj|solutionrelative:veterinaria2\\clsrazasconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+>>>>>>> de9795ca7c9345bbbefa044d857dd1562986d110
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +35,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +68,73 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\Servicios.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\Servicios.cs",
+              "ToolTip": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\Servicios.cs",
+              "RelativeToolTip": "Veterinaria2\\Servicios.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T23:42:37.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsRazasConexion.cs",
+              "DocumentMoniker": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\clsRazasConexion.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\clsRazasConexion.cs",
+              "ToolTip": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\clsRazasConexion.cs",
+              "RelativeToolTip": "Veterinaria2\\clsRazasConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T23:06:20.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClsServiciosConexion.cs",
+              "DocumentMoniker": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\ClsServiciosConexion.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\ClsServiciosConexion.cs",
+              "ToolTip": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\ClsServiciosConexion.cs",
+              "RelativeToolTip": "Veterinaria2\\ClsServiciosConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T23:06:16.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsConexion.cs",
+              "DocumentMoniker": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\ClsConexion.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\ClsConexion.cs",
+              "ToolTip": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\ClsConexion.cs",
+              "RelativeToolTip": "Veterinaria2\\ClsConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T23:05:32.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Servicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\Servicios.cs",
+              "RelativeDocumentMoniker": "Veterinaria2\\Servicios.cs",
+              "ToolTip": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria7\\Veterinaria2\\Servicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Veterinaria2\\Servicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T23:05:00.471Z",
+              "EditorCaption": " [Dise\u00F1o]"
+>>>>>>> de9795ca7c9345bbbefa044d857dd1562986d110
             }
           ]
         }

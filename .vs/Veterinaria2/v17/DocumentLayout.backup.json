@@ -1,6 +1,7 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\ca_mo\\Documentos\\UNICAH\\II Periodo 2025\\Entornos Desarrollo Visual\\III Parcial\\Veterinaria2\\",
   "Documents": [
     {
@@ -20,6 +21,10 @@
   "WorkspaceRootPath": "C:\\Users\\PABLO\\Documents\\GitHub\\Veterinaria6\\",
   "Documents": [],
 >>>>>>> 15a4db8d5122fab3d47e5ada74921e81ea6bf865
+=======
+  "WorkspaceRootPath": "C:\\Users\\Lenovo M720s\\Documents\\GitHub\\Veterinaria2\\",
+  "Documents": [],
+>>>>>>> de9795ca7c9345bbbefa044d857dd1562986d110
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -31,6 +36,7 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
 <<<<<<< HEAD
             },
@@ -73,6 +79,9 @@
               "EditorCaption": " [Dise\u00F1o]"
 =======
 >>>>>>> 15a4db8d5122fab3d47e5ada74921e81ea6bf865
+=======
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+>>>>>>> de9795ca7c9345bbbefa044d857dd1562986d110
             }
           ]
         }
