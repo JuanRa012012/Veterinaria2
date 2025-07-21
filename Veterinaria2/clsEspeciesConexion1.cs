@@ -19,63 +19,89 @@ namespace Veterinaria2
         {
             try
             {
-                da = new SqlDataAdapter("SELECT ID, NOMBREESPECIE FROM ESPECIE WHERE ESTADO = 1", clsConexion.sc);
-                dt = new DataTable();
-                da.Fill(dt);
-                dgv.DataSource = dt;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        public void CargarEspecies(ComboBox cbo)
-        {
-            try
-            {
                 da = new SqlDataAdapter("SELECT ID, NOMBRE FROM ESPECIE WHERE ESTADO = 1", clsConexion.sc);
                 dt = new DataTable();
                 da.Fill(dt);
-                cbo.DataSource = dt;
-                cbo.DisplayMember = "NOMBRE";
-                cbo.ValueMember = "ID";
+                dgv.DataSource = dt;
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error al cargar especies: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        public void BuscarRaza(DataGridView dgv, String vrBuscar)
+      
+        public void BuscarEspecie(DataGridView dgv, string nombreBuscar)
         {
             try
             {
-                da = new SqlDataAdapter("SELECT ID, NOMBREESPECIE FROM ESPECIE WHERE NOMBRERAZA LIKE '%" + vrBuscar + "%' AND ESTADO = 1", clsConexion.sc);
+                da = new SqlDataAdapter("SELECT ID, NOMBRE FROM ESPECIE WHERE NOMBRE LIKE @nombre AND ESTADO = 1", clsConexion.sc);
+                da.SelectCommand.Parameters.AddWithValue("@nombre", "%" + nombreBuscar + "%");
                 dt = new DataTable();
                 da.Fill(dt);
                 dgv.DataSource = dt;
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error al buscar especie: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        public void NuevaRaza(DataGridView dgv, String vrNombre, int vrIdEspecie)
+    
+        public void InsertEspecie(DataGridView dgv, string nombre)
         {
             try
             {
                 clsConexion.Abrir();
-                cmd = new SqlCommand("INSERT INTO ESPECIE VALUES ('" + vrNombre + "'," + vrIdEspecie + ", 1, 1);", clsConexion.sc);
+                cmd = new SqlCommand("INSERT INTO ESPECIE (NOMBRE, ESTADO) VALUES (@nombre, 1)", clsConexion.sc);
+                cmd.Parameters.AddWithValue("@nombre", nombre);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("El nuevo ítem ha sido agregado correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("La especie ha sido agregada correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 CargarDatos(dgv);
-                clsConexion.Abrir();
+                clsConexion.Cerrar();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex, "State", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error al insertar especie: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+       
+        public void UpdateEspecie(DataGridView dgv, string nombre, int id)
+        {
+            try
+            {
+                clsConexion.Abrir();
+                cmd = new SqlCommand("UPDATE ESPECIE SET NOMBRE = @nombre WHERE ID = @id", clsConexion.sc);
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("La especie ha sido modificada correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CargarDatos(dgv);
+                clsConexion.Cerrar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al modificar especie: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+       
+        public void DeleteEspecie(DataGridView dgv, int id)
+        {
+            try
+            {
+                clsConexion.Abrir();
+                cmd = new SqlCommand("UPDATE ESPECIE SET ESTADO = 2 WHERE ID = @id", clsConexion.sc);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("La especie ha sido anulada correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CargarDatos(dgv);
+                clsConexion.Cerrar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al anular especie: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

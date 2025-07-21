@@ -47,6 +47,7 @@
             bttAnularEspecies.TabIndex = 61;
             bttAnularEspecies.Text = "Anular";
             bttAnularEspecies.UseVisualStyleBackColor = true;
+            bttAnularEspecies.Click += bttAnularEspecies_Click;
             // 
             // bttModificarEspecies
             // 
@@ -97,6 +98,7 @@
             dgvListaEspecies.ReadOnly = true;
             dgvListaEspecies.Size = new Size(297, 273);
             dgvListaEspecies.TabIndex = 56;
+            dgvListaEspecies.CellContentClick += dgvListaEspecies_CellContentClick;
             // 
             // txtNombreEspecies
             // 
