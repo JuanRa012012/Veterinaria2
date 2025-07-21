@@ -45,7 +45,7 @@ namespace Veterinaria2
             }
         }
 
-        public void InsertServicio(DataGridView dgv, String vrNombre, int vrPrecio)
+        public void InsertServicio(DataGridView dgv, String vrNombre, decimal vrPrecio)
         {
             try
             {
